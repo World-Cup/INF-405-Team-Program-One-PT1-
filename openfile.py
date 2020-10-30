@@ -3,8 +3,8 @@ import csv
 
 class GetData:
     def _init_(self, file, date):
-        ''' args list of lists.
-            initialize fields with the most recent data.'''
+        ''' args file name 
+            create a list for the most recent data.'''
         local = []
         arr = GetData.open_file(file)
         for data in arr:
